@@ -1,13 +1,13 @@
 {
-  "title": "right_command + i/j/k/l to arrow keys",
+  "title": "change right option + ü/ö/ä/# to arrow keys",
   "rules": [
     {
-      "description": "Change right_option + ü/l/ö/ä to Arrows",
+      "description": "change right option + ü/ö/ä/# to arrow keys",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "l",
+            "key_code": "semicolon",
             "modifiers": {
               "mandatory": [
                 "right_option"
@@ -26,7 +26,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "semicolon",
+            "key_code": "quote",
             "modifiers": {
               "mandatory": [
                 "right_option"
@@ -64,7 +64,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "quote",
+            "key_code": "backslash",
             "modifiers": {
               "mandatory": [
                 "right_option"
